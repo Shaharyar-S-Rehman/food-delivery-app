@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(32, 32, 32);
+
+}
+.formnavbar{
+    background-color: rgb(218, 216, 216) !important;
+}
+.formBtn{
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.formDiv{
+    background-color: rgb(237, 241, 241) !important;
+    margin-top: 5%;
+    /* text-align: center; */
+    /* border-bottom: 2px solid black; */
+    box-shadow: 5px 5px 5px gray;
+    /* border-radius: 50px 5px 50px 5px; */
+}
+@media only screen and (max-width: 1000px) {
+    .formDiv{
+        min-width: 60%;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .formDiv{
+       min-width: 70%;
+    }
+}
+@media only screen and (max-width: 510px) {
+    .formDiv{
+        /* background-color: blue !important; */
+        min-width: 80% !important;
+    }
+}
+
+.card{
+    display: inline-block;
+    margin: 5%;
+}
+.btnindex{
+    margin-bottom: 1%;
+}
